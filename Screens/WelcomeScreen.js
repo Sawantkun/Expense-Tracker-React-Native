@@ -1,7 +1,7 @@
 import { View, Text, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import tw from 'twrnc';
-import ScreenWrapper from '../components/ScreenWrapper';
+import ScreenWrapper from '../components/ScreenWrapper.js';
 import welcome from "../assets/Images/welcome.gif"
 import {colors} from "../themes/index.js"
 import { useNavigation } from '@react-navigation/native';

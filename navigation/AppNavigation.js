@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
-import HomeScreen from '../Screens/HomeScreen';
-import TripExpensesScreen from '../Screens/TripExpensesScreen';
-import WelcomeScreen from '../Screens/WelcomeScreen';
-import SignInScreen from '../Screens/SignInScreen';
-import SignUpScreen from '../Screens/SignUpScreen';
+import HomeScreen from '../screens/HomeScreen';
+import TripExpensesScreen from '../screens/TripExpensesScreen';
+import WelcomeScreen from '../screens/WelcomeScreen';
+import SignInScreen from '../screens/SignInScreen';
+import SignUpScreen from '../screens/SignUpScreen';
 import { useSelector } from 'react-redux';
 
 const Stack = createNativeStackNavigator();
